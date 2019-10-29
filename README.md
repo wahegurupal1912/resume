@@ -8,6 +8,8 @@ In case you are not familiar with Jekyll, it is a very popular static site gener
 
 Before we start with the installation of Jekyll, you will need to confirm that you have these softwares install on your machine
 
+If you are missing any of these you can follow the steps available [here](https://jekyllrb.com/docs/installation/).
+
 - Ruby version 2.4.0 or above.
   - You can check your ruby version by running `ruby -v`
   - Jekyll is a Ruby package so we need ruby on our computer to work with Jekyll.
@@ -19,8 +21,6 @@ Before we start with the installation of Jekyll, you will need to confirm that y
   - You can check if gcc is available by running `gcc -v`, `g++ -v`
 - Make `make -v`
   - Check make by running `make -v`
-
-If you are missing any of these you can follow the steps available [here](https://jekyllrb.com/docs/installation/).
 
 ## Installation
 
@@ -102,7 +102,7 @@ resume/
 └── README.md
 ```
 
-#### \_config.yml
+#### Changes in \_config.yml
 
 This file contains all the configurations for your web page. The values in this file are accesible from everywhere in the project by using `site.variableName`.
 I will recommend you to change the `title` to Resume and changing the `email`, `twitter_username` and `github_username` to your own information. We will leave `baseurl` and `url` as empty string for now. Finally, we will add two new value, name and occupation. Add these two variable right below the title.
@@ -111,3 +111,23 @@ I will recommend you to change the `title` to Resume and changing the `email`, `
 name: YourName
 occupation: YourOccupation
 ```
+
+After all the changes are done, you will have to restart the local server. On your terminal window, press `ctrl+c` to stop the curretly running server and then start the server again by using `bundle exec jekyll serve`. You only need to restart the server if the changes are made in \_config.yml file. For all the changes in any other file, you can just refresh the browser window.
+
+#### Start writing you markdown Resume
+
+Now you can start writing your resume in markdown. While creating your markdown for the resume, do not include your name, occupation and you contact information. All that information will be added in the header later. Once you are done with making your resume, you can paste all that code in index.markdown file. Leave the top part that is already there as it is. Just add your markdown below those lines.
+
+```md
+---
+layout: home
+---
+
+ADD YOUR MARKDOWN CODE HERE
+```
+
+That top part is called front-matter where you can specify page specific values in yml. In our case, `layout: home` refers to using the home.html layout hor this page. All the stuff below the front-matter is reffered as `content` in the layout file. All you markdown content is converted into html and placed at the `{{content}}` position in the layout file.
+
+You can see you content for your resume on your localhost after refreshing the web page.
+
+#### Creating the Header
