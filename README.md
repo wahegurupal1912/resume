@@ -6,12 +6,16 @@ This is a simple resume made with a minimal design approach. The resume uses Jek
 
 Before we start with the installation of Jekyll, you will need to confirm that you have these softwares install on your machine
 
-- Ruby version 2.4.0 or above. `ruby -v`
-- RubyGems `gem -v`
-- GCC `gcc -v`, `g++ -v`
+- Ruby version 2.4.0 or above.
+    - You can check your ruby version by running `ruby -v`
+- RubyGems
+    - Check the version by running `gem -v`
+- GCC
+    - You can check if gcc is available by running `gcc -v`, `g++ -v`
 - Make `make -v`
+    - Check make by running `make -v`
 
-If you are missing any of those you can follow the steps available [here](https://jekyllrb.com/docs/installation/).
+If you are missing any of these you can follow the steps available [here](https://jekyllrb.com/docs/installation/).
 
 ## Installation
 
