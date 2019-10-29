@@ -87,7 +87,7 @@ University of Manitoba<br />
 ## VOLUNTEER EXPERIENCE
 
 **VICE PRESIDENT**<br />
-**MANITOBA INTERNATIONAL BRIDGING SOCIETY**<br />
+MANITOBA INTERNATIONAL BRIDGING SOCIETY<br />
 <span style=" font-size:0.9em;">UNIVERSITY OF MANITOBA</span><br />
 <span style=" font-size:0.8em;">SEP 2018 - DEC 2018</span>
 
@@ -96,7 +96,7 @@ University of Manitoba<br />
 - Created marketing material using Adobe products
 
 **FOLKORAMA**<br />
-**PUNJAB CULTURE CENTRE**<br />
+PUNJAB CULTURE CENTRE<br />
 <span style=" font-size:0.9em;">WINNIPEG, MB</span><br />
 <span style=" font-size:0.8em;">AUG 2017</span>
 
@@ -104,7 +104,7 @@ University of Manitoba<br />
 - Helped in the parking department
 
 **HEAD BOY**<br />
-**GURU NANAK PUBLIC SCHOOL**<br />
+GURU NANAK PUBLIC SCHOOL<br />
 <span style=" font-size:0.9em;">NEW DELHI, INDIA</span><br />
 <span style=" font-size:0.8em;">2013 - 2015</span>
 

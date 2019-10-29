@@ -242,7 +242,46 @@
   }
 }
 
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+  background-color: #222;
+  /* color: #fff; */
+  margin-bottom: 30px;
+  padding: 120px 0;
+}
+
+.resume-heading {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.site-title {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  font-size: 2.5em !important;
+  float: left;
+  color: #ffffff;
+}
+
+.resume--occupation {
+  font-size: 29px;
+  line-height: 38.4px;
+  text-align: start;
+  letter-spacing: normal;
+  padding-top: 11px;
+  font-weight: 100;
+  color: #999;
+}
+
 h2 {
   border-bottom: 1px solid #ccc;
-  color: rgb(47, 107, 236);
+  color: #d2691e;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
