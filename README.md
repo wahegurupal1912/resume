@@ -44,3 +44,15 @@ There are various approaches for using Jekyll. We will set up Jekyll locally whi
    bundle exec jekyll serve
    ```
 5. You can checkout a default blog site created by Jekyll at http://localhost:4000
+
+## Instructions
+
+#### Get the theme files
+
+We want to change the styling on the current default website created by minima to add our own taste to it. Jekyll does not provide us with the files that are used by the theme. By default Jekyll uses the _minima_ theme. To get the files used by minima, run the following command in a terminal window
+
+```bash
+open $(bundle show minima)
+```
+
+This will open a File Explorer window with all the files used by minima to style our webpage. You can copy and paste the all the files from that window to your project.
