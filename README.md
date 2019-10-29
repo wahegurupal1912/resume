@@ -8,7 +8,7 @@ In case you are not familiar with Jekyll, it is a very popular static site gener
 
 Before we start with the installation of Jekyll, you will need to confirm that you have these softwares install on your machine
 
-If you are missing any of these you can follow the steps available [here](https://jekyllrb.com/docs/installation/).
+If you are missing any of these, you can follow the steps available [here](https://jekyllrb.com/docs/installation/).
 
 - Ruby version 2.4.0 or above.
   - You can check your ruby version by running `ruby -v`
@@ -114,7 +114,7 @@ occupation: YourOccupation
 
 After all the changes are done, you will have to restart the local server. On your terminal window, press `ctrl+c` to stop the curretly running server and then start the server again by using `bundle exec jekyll serve`. You only need to restart the server if the changes are made in \_config.yml file. For all the changes in any other file, you can just refresh the browser window.
 
-#### Start writing you markdown Resume
+#### Start writing your markdown Resume
 
 Now you can start writing your resume in markdown. While creating your markdown for the resume, do not include your name, occupation and you contact information. All that information will be added in the header later. Once you are done with making your resume, you can paste all that code in index.markdown file. Leave the top part that is already there as it is. Just add your markdown below those lines.
 
@@ -131,3 +131,65 @@ That top part is called front-matter where you can specify page specific values 
 You can see you content for your resume on your localhost after refreshing the web page.
 
 #### Creating the Header
+
+There is a `header.html` file inside `includes`. All the html in here is responsible for creating the header on top of your resume. You can change the html code in here to however you want to design your header. You can also add css to make your html look good. All your css will go in `_sass/minima/_layout.scss`.
+
+Here is the html and css for the header in my resume
+
+header.html
+
+```html
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%} {%- assign
+    page_paths = site.header_pages | default: default_paths -%}
+
+    <div class="resume-heading">
+      <h3 class="site-title">{{ site.name | escape }}</h3>
+
+      <h3 class="resume--occupation">{{ site.occupation | escape }}</h3>
+    </div>
+  </div>
+</header>
+```
+
+Add this to your \_layout.scss
+
+> You will have to remove the old .site-header and .site-title as they already exist in that file
+
+```scss
+.site-header {
+  border-top: 5px solid #424242;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+  background-color: #222;
+  margin-bottom: 30px;
+  padding: 120px 0;
+}
+
+.resume-heading {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.site-title {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  font-size: 2.5em !important;
+  float: left;
+  color: #ffffff;
+}
+
+.resume--occupation {
+  font-size: 29px;
+  line-height: 38.4px;
+  text-align: start;
+  letter-spacing: normal;
+  padding-top: 11px;
+  font-weight: 100;
+  color: #999;
+}
+```
