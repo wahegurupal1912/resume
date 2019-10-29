@@ -2,6 +2,8 @@
 
 This is a simple resume made with a minimal design approach. The resume uses Jekyll and is hosted on Github Pages. You can checkout the resume [here](https://wahegurupal1912.github.io/resume/).
 
+In case you are not familiar with Jekyll, it is a very popular static site generator. It allows you to write your content in Markdown and then combines that content with a template and provides you with a set of static web pages. These web pages can be easily hosted on a web server. Additionally, jekyll is the engine behind Github pages and it allows us to host web pages right from our repository for free.
+
 ## Requirements
 
 Before we start with the installation of Jekyll, you will need to confirm that you have these softwares install on your machine
@@ -98,4 +100,14 @@ resume/
 ├── index.markdown
 ├── LICENSE.txt
 └── README.md
+```
+
+#### \_config.yml
+
+This file contains all the configurations for your web page. The values in this file are accesible from everywhere in the project by using `site.variableName`.
+I will recommend you to change the `title` to Resume and changing the `email`, `twitter_username` and `github_username` to your own information. We will leave `baseurl` and `url` as empty string for now. Finally, we will add two new value, name and occupation. Add these two variable right below the title.
+
+```yml
+name: YourName
+occupation: YourOccupation
 ```
