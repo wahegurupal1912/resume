@@ -56,3 +56,46 @@ open $(bundle show minima)
 ```
 
 This will open a File Explorer window with all the files used by minima to style our webpage. You can copy and paste the all the files from that window to your project.
+
+#### Remove unwanted files
+
+Currently your project directory should have these files.
+
+```
+resume/
+├── _config.yml
+├── _includes
+├── _layouts
+├── _posts
+├── _sass
+├── _site
+├── 404.html
+├── about.markdown
+├── assets
+├── Gemfile
+├── Gemfile.lock
+├── index.markdown
+├── LICENSE.txt
+└── README.md
+```
+
+As described above, Jekyll provides you with some default files when you create a new project. These files are used to create a very basic blog site to get you started. Since we are make a single page resume instead of a blog, there are some extra files that we can get rid of.
+
+We can delete `_posts`, `404.html`, `about.markdown`. You can also delete `post.html` and `page.html` from the `_layouts` folder.
+
+Finally, the directory should look something like this
+
+```
+resume/
+├── _config.yml
+├── _includes
+├── _layouts
+├── _sass
+├── _site
+├── assets
+├── Gemfile
+├── Gemfile.lock
+├── index.markdown
+├── LICENSE.txt
+└── README.md
+```
