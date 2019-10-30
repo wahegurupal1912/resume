@@ -6,7 +6,7 @@ In case you are not familiar with Jekyll, it is a very popular static site gener
 
 ## Who is this intended for?
 
-This README will cover the steps to setup Jekyll and how to work with it to set up you static resume. You are expected to know how to work with markdown and github.
+This README will cover the steps to setup Jekyll and how to work with it to host your static resume on Github. You are expected to know how to work with markdown and github.
 
 ## Requirements
 
@@ -121,3 +121,17 @@ You can see your changes on your localhost after refreshing the web page.
 #### Creating the Header and the Footer
 
 There is a `header.html` file inside `_includes`. All the html in here is responsible for creating the header on top of your resume. You can change the html code in here to however you want to design your header. You can also add scss in `_sass/minima/_layout.scss` to stylize the header. The same steps apply for the footer as well. The html for the footer will go under `_includes/footer.html`. I opted to remove the footer for my resume. If you wish to do so, you can simply remove the include statement for the footer.html from `_layouts/default.html`.
+
+#### Hosting on Github Pages
+
+Create a new repository on github. In your `_config.yml` file, add your repository name for the value of baseurl.
+
+```yml
+baseurl: "/repositoryName" #add your repository name there
+```
+
+Push all your files to your repository. Now go to your repository settings and scroll down to Github Pages. Pick your master branch as the source.
+
+![Scroll to Github Pages](https://media.giphy.com/media/YmnOZY8qcabX6UeVri/giphy.gif)
+
+You should see a message saying "Your site is being published". Wait for a few minutes and refresh the page. Scroll back down to the Github pages section. You should see a message saying "Your site is published at **\_**". You can browse to that link to checkout your site in action.
