@@ -49,6 +49,7 @@ There are various approaches for using Jekyll. We will set up Jekyll locally whi
    ```bash
    bundle exec jekyll serve
    ```
+   ![bundle exec jekyll serve](https://media.giphy.com/media/hv51W7DZDOL2O4R8IL/giphy.gif)
 5. You can checkout a default blog site created by Jekyll at http://localhost:4000
 
 ## Important terms
@@ -134,4 +135,28 @@ Push all your files to your repository. Now go to your repository settings and s
 
 ![Scroll to Github Pages](https://media.giphy.com/media/YmnOZY8qcabX6UeVri/giphy.gif)
 
-You should see a message saying "Your site is being published". Wait for a few minutes and refresh the page. Scroll back down to the Github pages section. You should see a message saying "Your site is published at **\_**". You can browse to that link to checkout your site in action.
+You should see a message saying "Your site is being published". Wait for a few minutes and refresh the page. Scroll down to the Github pages section again. You should see a message saying "Your site is published at **\_\_\_\_**". You can browse to that link to checkout your site in action.
+
+## Useful Resources
+
+Here are some additional links if you want more information about the topics.  
+**Jekyll** - https://www.mikedane.com/static-site-generators/jekyll/  
+**Markdown** - https://www.markdownguide.org/cheat-sheet/  
+**Github Pages** - https://help.github.com/en/github/working-with-github-pages/getting-started-with-github-pages
+
+## Acknowledgements
+
+Group Members:
+
+- Navjot Dhillon
+- Dilawer Hussain
+
+## FAQs
+
+Q1. Are there any pre made jekyll templates available to use?
+
+> Yes, there are a lot of theme templates available online that can be used with jekyll. You can find some [here](http://jekyllthemes.org/).
+
+Q2. Why do I need to have Ruby installed to work with Jekyll?
+
+> Jekyll is a library written in Ruby. So we need ruby on our machine to work with jekyll.
