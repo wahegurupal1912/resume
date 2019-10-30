@@ -4,6 +4,10 @@ This is a simple resume made with a minimal design approach. The resume uses Jek
 
 In case you are not familiar with Jekyll, it is a very popular static site generator. It allows you to write your content in Markdown and then combines that content with a template and provides you with a set of static web pages. These web pages can be easily hosted on a web server. Additionally, jekyll is the engine behind Github pages and it allows us to host web pages right from our repository for free.
 
+## Who is this intended for?
+
+This README will cover the steps to setup Jekyll and how to work with it to set up you static resume. You are expected to know how to work with markdown and github.
+
 ## Requirements
 
 Before we start with the installation of Jekyll, you will need to confirm that you have these softwares install on your machine
