@@ -1,4 +1,4 @@
-# How to host a Resume on Github Pages and Jekyll
+# How to host a Resume using Github Pages and Jekyll
 
 This is a simple resume made with a minimal design approach. The resume uses Jekyll and is hosted on Github Pages. You can checkout the resume [here](https://wahegurupal1912.github.io/resume/).
 
