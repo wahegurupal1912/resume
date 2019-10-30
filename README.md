@@ -56,7 +56,7 @@ There are various approaches for using Jekyll. We will set up Jekyll locally whi
 
 Here are some important things that you should know before getting started with Jekyll
 
-1. **\_includes** - This folder contains html snippets that can be included in any other html file. `{%- include footer.html -%}` will act as a placeholder and will add all the html from footer.html(which is under \_includes) in it's place.
+1. **\_includes** - This folder contains html snippets that can be included in any other html file. `{%- include header.html -%}` will act as a placeholder and will add all the html from header.html(which is under \_includes) in it's place.
 
 2. **\_layouts** - This folder contains html layouts with some designated place for some user content. You can mention the layout in the front-matter(discussed later) and all your content will be placed in the layout that you specified.
 
