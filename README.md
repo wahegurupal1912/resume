@@ -1,4 +1,4 @@
-# How to create a static resume and host it on Github Pages
+# How to create a Resume on Github Pages using Jekyll
 
 This is a simple resume made with a minimal design approach. The resume uses Jekyll and is hosted on Github Pages. You can checkout the resume [here](https://wahegurupal1912.github.io/resume/).
 
@@ -52,9 +52,9 @@ There are various approaches for using Jekyll. We will set up Jekyll locally whi
    ![bundle exec jekyll serve](https://media.giphy.com/media/hv51W7DZDOL2O4R8IL/giphy.gif)
 5. You can checkout a default blog site created by Jekyll at http://localhost:4000
 
-## Important terms
+## Jekyll Terminologies
 
-Here is some important things that you should know before getting started with Jekyll
+Here are some important things that you should know before getting started with Jekyll
 
 1. **\_includes** - This folder contains html snippets that can be included in any other html file. `{%- include footer.html -%}` will act as a placeholder and will add all the html from footer.html(which is under \_includes) in it's place.
 
