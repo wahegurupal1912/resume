@@ -2,7 +2,7 @@
 
 This is a simple resume made with a minimal design approach. The resume uses Jekyll and is hosted on Github Pages. You can checkout the resume [here](https://wahegurupal1912.github.io/resume/).
 
-In case you are not familiar with Jekyll, it is a very popular static site generator. It allows you to write your content in Markdown and then combines that content with a template and provides you with a set of static web pages. These web pages can be easily hosted on a web server. Additionally, jekyll is the engine behind Github pages and it allows us to host web pages right from our repository for free.
+In case you are not familiar with Jekyll, it is a very popular static site generator. It allows you to write your content in Markdown and then combines that content with a template and provides you with a set of static web pages. These web pages can then be easily hosted on a web server.
 
 ## Who is this intended for?
 
