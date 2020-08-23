@@ -142,13 +142,6 @@ Here are some additional links if you want more information about the topics.
 **Markdown** - https://www.markdownguide.org/cheat-sheet/  
 **Github Pages** - https://help.github.com/en/github/working-with-github-pages/getting-started-with-github-pages
 
-## Acknowledgements
-
-Group Members:
-
-- Navjot Dhillon
-- Dilawer Hussain
-
 ## FAQs
 
 Q1. Are there any pre made jekyll templates available to use?
